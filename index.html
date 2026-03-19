@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Online Education</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav h1 {
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1523580494863-6f3031224c94') no-repeat center/cover;
+            height: 90vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+        }
+
+        .hero p {
+            margin: 20px 0;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: #e67e22;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .courses {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .course-card {
+            background: #f4f4f4;
+            margin: 15px;
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>EduLearn</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <h2>Learn Anytime, Anywhere</h2>
+        <p>Upgrade your skills with the best online courses</p>
+        <button class="btn">Get Started</button>
+    </div>
+</section>
+
+<section id="courses" class="section">
+    <h2>Our Courses</h2>
+    <div class="courses">
+        <div class="course-card">
+            <h3>Web Development</h3>
+            <p>Learn HTML, CSS, JavaScript</p>
+        </div>
+        <div class="course-card">
+            <h3>Data Science</h3>
+            <p>Python, ML, AI basics</p>
+        </div>
+        <div class="course-card">
+            <h3>Java Programming</h3>
+            <p>Core Java + OOP</p>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We provide high-quality online education to help students achieve their goals.</p>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: support@edulearn.com</p>
+</section>
+
+<footer>
+    <p>© 2026 EduLearn. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
